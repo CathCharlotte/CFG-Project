@@ -1,0 +1,369 @@
+.btn-group button {
+    background-color: #f6faf8;
+    padding: 10px 12px 10px 12px;
+    border-color:rgb(10, 10, 10);
+    border-radius: 15px;
+    border-width: 2.5px;
+    margin: 18px;
+    font-size: 22px;
+    width: 180px;
+    font-family: roboto, sans-serif;
+    color: black;
+    font-weight: bold;    
+
+}.btn-group button:hover {
+    background-color: #033416;
+    color: white;
+    border-color: #d3f8e0;
+;
+}.btn-group {
+    font-family:roboto, sans serif;
+    color: rgb(5, 43, 15);
+}.container {
+    position: relative;
+    text-align: center;
+    color: rgb(5, 43, 15)ack;
+    max-width: 100%
+  }  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgb(5, 43, 15);
+    font-weight: 600;
+    text-shadow: white 3PX 3PX 3PX ;
+  }  
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .button button{
+    position:absolute;
+    top: 76%;
+    left: 44%;
+    font-size: 60px;
+    color:rgb(5, 43, 15)k;
+    font-weight: 500;
+    font-family:roboto, sans-serif;
+    background-color: white;
+    border-width: 5px;
+    text-shadow: white 3px 3px 3px;
+    padding: 10px 10px 10px 10px;}
+.button button:hover {
+    background-color: rgb(5, 43, 15);}
+
+
+
+    body, ul, li, h1, h2, a{
+      margin: 0;
+      padding: 0;
+      font-family: arial;
+  }
+  header{
+      background-color: #094809;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+      top: 0;
+      left: 0;
+  }
+  header h1{
+      color: white;
+      border: 8px solid white;
+      padding: 6px 12px;
+      display: inline-block;
+      border-radius: 36px;
+  }
+  .ecoimage{
+      position: relative; /* relative for a parent and absolute for a child as below */
+  }
+  .ecoimage img{
+      max-width: 100%;
+    
+  }
+  .ecoimage .ecostyle{
+      background-color: white;
+      color: rgb(5, 43, 15);
+      padding: 30px;
+      position: absolute;
+      left: 0%;
+      top: 50%;
+      font-weight:bold;
+  }
+  .ecoimage h2{
+      font-size: 74px;
+      padding: 15px;
+  }
+  .ecoimage h2 span{
+      font-size: 1.3em;
+  }
+  nav{
+      background-color: #d3f8e0;
+      padding: 20px;
+      position: sticky;
+      top: 0px;
+      text-align: center;
+  }
+  nav ul{
+      white-space: nowrap;
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  nav li{
+      width: 25%;
+      display: inline-block;
+      font-size: 24px;
+  }
+  nav li a{
+      text-decoration: none;
+      color: rgb(5, 43, 15);
+      }
+  nav li a.aboutus{
+      color:black;
+      }
+  main{
+      max-width: 100%;
+      width: 1200px;
+      margin: 80px auto;
+      padding: 0 40px;
+      box-sizing: border-box;
+  }
+  article h2{
+      color: black;
+      font-size: 48px;
+  }
+  article p{
+      line-height: 2em;
+      color: black;
+  }
+  .images{
+      text-align: center;
+      margin: 80px 0;
+      white-space: nowrap;
+  }
+  .images li{
+      display: inline-block;
+      width: 40%;
+      margin: 20px 5%;
+  }
+  .images li img{
+      max-width: 100%;
+  }
+  section.aboutus{
+      background: #F4F4F4;
+      text-align: center;
+      padding: 60px 20px;
+      color: #4B4B4B;
+  }
+  .aboutus h2{
+      font-size: 36 px;
+  }
+  form input{
+      margin: 20px;
+      padding: 10px 20px;
+      font-size: 24px;
+      border-radius: 28px;
+      border: 4px solid white;
+  }
+  .copyright{
+      background:rgb(5, 43, 15);
+      color: white;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  
+  nav li a:hover{
+      text-decoration: underline;
+  }
+  .images li:hover{
+      position: relative;
+      top: -4px;
+  }
+  form input:focus{
+      border: dashed #4B4B4B;
+      outline: none;
+  }
+  form input:valid{
+      border: 4px solid #71D300;
+  }
+  article p::first-line{
+      font-weight: bold;
+      font-size: 1.2em;
+  }
+  section.join p::first-letter{
+      font-size: 1.5em;
+  }
+  section.join P::selection{
+      background-color: #F63232;
+      color: white
+  }
+  p::after{
+      content: '...';
+  }
+  
+  /* responsive styles */
+  
+  @media screen and (max-width: 1400px){
+      
+      .ecoimage .ecostyle h2{
+          font-size: 60px;
+      }
+      nav li{
+          font-size: 18px;
+      }
+  }
+  @media screen and (max-width: 960px){
+  
+      .ecoimage .ecostyle h2{
+          font-size: 40px;
+      }
+      
+  }
+  @media screen and (max-width: 700px){
+      
+      .ecoimage .ecostyle{
+          position: relative;
+          text-align: center;
+          padding: 10px;
+      }
+  
+      .ecoimage .ecostyle br{
+          display: none;
+      }
+     
+      .ecoimage .ecostyle h2{
+          font-size: 25px;
+      }
+      .ecoimage .ecostyle span{
+          font-size: 1em;
+          }
+      .images li{
+          width: 100%;
+          margin: 20px auto;
+          display: block;
+      }
+  }
+  
+  @media screen and (max-width: 560px){
+  
+      nav li{
+          font-size: 20px;
+          display: block;
+          width: 100%;
+          margin: 12 px 0;
+      }
+      header{
+          position: relative;
+      }
+      nav{
+          top: 55px;
+      }
+  }
+  
+
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+    background: #04AA6D;
+    color: white;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+      background:#125688;
+      color: white;
+  }
+
+  
+  h1 {
+    font-family: "sofia", sans-serif!;
+
+  }
+  body {
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  #message {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+}
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  input[type=submit] {
+    width: 100%;
+    background-color: #094809;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45A049;
+  }
+  .form {
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    padding: 20px;
+  }
+  .btn-group button {
+    background-color: white;
+    border-color: #4CAF50;
+    padding: 10px;
+    margin: 4px 8px;
+    border-radius: 12px;
+  }
+  .btn-group button:hover {
+    background-color: #92D36E;
+}
+.form {
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    position:absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+   
+body {
+    text-align: center;
+}
+
